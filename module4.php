@@ -65,8 +65,33 @@
     foreach($arr as $polo){
         echo "<br>" . $polo;
     }
+    
+
+    //implode
+    $str = implode("," , $arr );
+
+    echo "<br>" . $str;
 
 
+    $arr2 = explode(",", $str);
+
+    foreach($arr as $hellow){
+        echo "<br>" . $hellow;
+    }
+
+
+    echo "<br>" .strtoupper("hello world");
+    echo "<br>" .strtolower("VALLIRIE");
+    echo "<br>" .strlen("Hellooo");
+    echo "<br>" .strrev("uoy evol I");
+
+
+    //date
+
+    echo "<br>" . date("format");
+    echo "<br>" . date("Y");
+    echo "<br>" . date("j/m/Y");
+ 
     ?>
 </body>
 </html>
